@@ -3,3 +3,7 @@ List of pwas
 Random line picker
 Random color picker
 URL shortner
+
+Flash messages
+Secret key
+os.urandom(24).hex()
