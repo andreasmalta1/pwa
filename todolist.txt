@@ -1,9 +1,11 @@
 List of pwas
 
+URL:
 Random line picker
 Random color picker
-URL shortner
+    Show actual color
 
 Flash messages
+Home page with nav menu
 Secret key
 os.urandom(24).hex()

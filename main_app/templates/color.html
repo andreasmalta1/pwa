@@ -8,11 +8,10 @@
 </head>
 <body>
     <form action="" method="POST">
-        <input type="text" name="url" placeholder="URL" value="{{ request.form['url'] }}"></input>
-        <br>
-        <br>
-        <button type="submit">Submit</button>
+        <button type="submit">Get Color</button>
     </form>
-    {{ short_url }}
+    <div>
+        <h1>{{ color }}</h1>
+    </div>
 </body>
 </html>
