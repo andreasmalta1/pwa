@@ -2,6 +2,9 @@ List of pwas
 
 URL:
 Random line picker
+    Give ability to change separator
+    Return back input when shpwing output
+    Ferris wheel ?
 Random color picker
     Show actual color
     Show color in name/rgb/other options
