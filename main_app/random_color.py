@@ -1,5 +1,4 @@
-from flask import Blueprint, render_template, request, flash
-from pyshorteners import Shortener
+from flask import Blueprint, render_template, request
 import random
 
 random_color = Blueprint("random_color", __name__)
