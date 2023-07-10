@@ -13,3 +13,5 @@ Flash messages
 Home page with nav menu
 Secret key
 os.urandom(24).hex()
+
+https://miniwebtool.com/random-line-picker/
