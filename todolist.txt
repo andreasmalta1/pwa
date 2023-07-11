@@ -1,18 +1,23 @@
-List of pwas
-
-URL:
-Random line picker
-    Give ability to change separator
-    Return back input when shpwing output
-    Ferris wheel ?
-Random color picker
-    Show actual color
-    Show color in name/rgb/other options
-
 Flash messages
 Home page with nav menu
 Secret key
 os.urandom(24).hex()
+Categorise
+
+List of pwas
+
+    1. URL:
+    2. Random line picker
+        Give ability to change separator
+        Ferris wheel
+        Take file input
+    3. Random color picker
+        Randint error
+        Show actual color
+        Show color in name/rgb/other options
+    4. Cat years
+    5. Dog years
+
 
 https://miniwebtool.com/random-line-picker/
 

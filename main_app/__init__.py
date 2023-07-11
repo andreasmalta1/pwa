@@ -7,9 +7,9 @@ load_dotenv()
 app = Flask(__name__)
 
 from main_app.url import url
-from main_app.random_color import random_color
-from main_app.random_text import random_text
+from main_app.random import random
+from main_app.cat_years import cat_years
 
 app.register_blueprint(url, url_prefix="/shorten")
-app.register_blueprint(random_color, url_prefix="/random-color")
-app.register_blueprint(random_text, url_prefix="/random-picker")
+app.register_blueprint(random, url_prefix="/random")
+app.register_blueprint(cat_years, url_prefix="/cat-years")

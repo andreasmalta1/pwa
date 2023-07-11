@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="cat-years"></label>
+        <input type="number" name="cat-years" placeholder="Enter Cat Years">{{ cat_years }}</input>
+
+        <button type="submit" name="get-human">Convert to human years</button>
+
+        <label for="human-years"></label>
+        <input type="number" name="human-years" placeholder="Enter Human Years">{{ human_years}}</input>
+
+        <button type="submit" name="get-cat">Convert to cat years</button>
+    </form>
+    <div>
+        <h1>{{ color }}</h1>
+    </div>
+</body>
+</html>
