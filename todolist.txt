@@ -15,3 +15,46 @@ Secret key
 os.urandom(24).hex()
 
 https://miniwebtool.com/random-line-picker/
+
+Some of the below, add text file
+
+# average calculator
+# cat years
+# dog years
+cube numbers
+square numbers
+distance converter
+tmep converter
+Mac address
+Discount calculator
+Random name picker
+Sum calculator
+Sqaure List
+Sorter
+BMI
+Circle dimater
+Binary to hex to decimal
+n digits of pi 
+prime number checker
+fibonnaci sequence genearur
+Lottery numbers
+Random numbbers
+Password
+Random letter
+Random quote
+Randomze list of numbers
+Add Line Numbers
+Chcater counter
+word counter
+email extractor
+line counter
+Duplicates remmover
+lower/cuppercase
+reverse text
+Current day
+Day of birth
+Time alive
+Day fo the year
+Days between 2 dates 
+leap year
+Misc
