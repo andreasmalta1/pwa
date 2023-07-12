@@ -1,10 +1,10 @@
 from flask import Blueprint, render_template, request
 import random
 
-random = Blueprint("random", __name__)
+randomize = Blueprint("random", __name__)
 
 
-@random.route("/color", methods=["GET", "POST"])
+@randomize.route("/color", methods=["GET", "POST"])
 def get_random_color():
     if request.method == "POST":
         r = lambda: random.randint(0, 255)
@@ -15,7 +15,7 @@ def get_random_color():
         return render_template("color.html")
 
 
-@random.route("/picker", methods=["GET", "POST"])
+@randomize.route("/picker", methods=["GET", "POST"])
 def get_random_text():
     if request.method == "POST":
         text = request.form["text"]

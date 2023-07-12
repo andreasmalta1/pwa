@@ -8,16 +8,20 @@ cat_years = Blueprint("cat_years", __name__)
 def get_cat_years():
     if request.method == "POST":
         cat_years = request.form["cat-years"]
-        human_years = request.form["human-years"]
-        # if request.form.get("get_human"):
-        #     print("Converting to human")
-        # if request.form.get("get_cat"):
-        #     print("Converting to cat years")
-        # ^^ NOT WORKING
-
-        # https://stackoverflow.com/questions/19794695/flask-python-buttons
+        if request.form["convert"] == "get-human":
+            human_years = convert_to_human(int(cat_years))
 
         return render_template("cat.html", cat_years=cat_years, human_years=human_years)
 
     if request.method == "GET":
         return render_template("cat.html")
+
+
+def convert_to_human(years):
+    if years == 1:
+        return 15
+
+    if years == 2:
+        return 24
+
+    return ((years - 2) * 4) + 24
