@@ -9,14 +9,11 @@
 <body>
     <form action="" method="POST">
         <label for="cat-years"></label>
-        <input type="number" name="cat-years" placeholder="Enter Cat Years">{{ cat_years }}</input>
-
-        <button type="submit" name="get-human">Convert to human years</button>
-
+        <input type="number" name="cat-years" placeholder="Enter Cat Years" value="{{ cat_years }}"></input>
+        <button type="submit" name="convert" value="get-human">Convert to human years</button>
+        <br>
         <label for="human-years"></label>
-        <input type="number" name="human-years" placeholder="Enter Human Years">{{ human_years}}</input>
-
-        <button type="submit" name="get-cat">Convert to cat years</button>
+        <h1>{{ human_years }}</h1>
     </form>
     <div>
         <h1>{{ color }}</h1>
